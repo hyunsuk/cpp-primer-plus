@@ -1,17 +1,16 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
 struct inflatable
 {
-    string name;
+    std::string name;
     float volume;
     double price;
 };
 
 int main()
 {
+    using namespace std;
     inflatable guest = {
         "Glorious Gloria",
         1.88,
